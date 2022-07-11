@@ -50,6 +50,8 @@
         <!--        <selenium.version>3.14.0</selenium.version>-->
         <selenium.version>4.1.0</selenium.version>
 
+        <htmlunit.driver.version>3.58.0</htmlunit.driver.version>
+
 <!--        <arquillian-drone.version>2.5.5</arquillian-drone.version>-->
         <arquillian-drone.version>3.0.0-alpha.5</arquillian-drone.version>
 
@@ -136,7 +138,13 @@
                 <version>${selenium.version}</version>
             </dependency>
 
+
             <!-- Drivers -->
+            <dependency>
+                <groupId>org.seleniumhq.selenium</groupId>
+                <artifactId>htmlunit-driver</artifactId>
+                <version>${htmlunit.driver.version}</version>
+            </dependency>
             <dependency>
                 <groupId>org.seleniumhq.selenium</groupId>
                 <artifactId>selenium-chrome-driver</artifactId>
