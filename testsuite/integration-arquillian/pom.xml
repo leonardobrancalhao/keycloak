@@ -48,7 +48,7 @@
         <shrinkwrap-resolver.version>3.1.4</shrinkwrap-resolver.version>
 
         <!--        <selenium.version>3.14.0</selenium.version>-->
-        <selenium.version>4.3.0</selenium.version>
+        <selenium.version>4.1.0</selenium.version>
 
 <!--        <arquillian-drone.version>2.5.5</arquillian-drone.version>-->
         <arquillian-drone.version>3.0.0-alpha.5</arquillian-drone.version>
