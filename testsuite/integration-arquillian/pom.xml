@@ -41,22 +41,22 @@
         <cache.server.java.home>${java.home}</cache.server.java.home>
 
         <!--component versions-->
-<!--        <arquillian-core.version>1.6.0.Final</arquillian-core.version>-->
-        <arquillian-core.version>1.7.0.Alpha10</arquillian-core.version>
+        <arquillian-core.version>1.6.0.Final</arquillian-core.version>
+<!--        <arquillian-core.version>1.7.0.Alpha10</arquillian-core.version>-->
 
         <!--the version of shrinkwrap_resolver should align with the version in arquillian-bom-->
         <shrinkwrap-resolver.version>3.1.4</shrinkwrap-resolver.version>
 
-        <!--        <selenium.version>3.14.0</selenium.version>-->
-        <selenium.version>4.1.0</selenium.version>
+<!--        <selenium.version>3.14.0</selenium.version>-->
+        <selenium.version>4.0.0</selenium.version>
 
-        <htmlunit.driver.version>3.58.0</htmlunit.driver.version>
+<!--        <htmlunit.driver.version>3.58.0</htmlunit.driver.version>-->
 
-<!--        <arquillian-drone.version>2.5.5</arquillian-drone.version>-->
-        <arquillian-drone.version>3.0.0-alpha.5</arquillian-drone.version>
+        <arquillian-drone.version>2.5.5</arquillian-drone.version>
+<!--        <arquillian-drone.version>3.0.0-alpha.4</arquillian-drone.version>-->
 
-<!--        <arquillian-graphene.version>2.5.4</arquillian-graphene.version>-->
-        <arquillian-graphene.version>3.0.0-alpha.3</arquillian-graphene.version>
+        <arquillian-graphene.version>2.5.4</arquillian-graphene.version>
+<!--        <arquillian-graphene.version>3.0.0-alpha.3</arquillian-graphene.version>-->
 
         <arquillian-wildfly-container.version>3.0.1.Final</arquillian-wildfly-container.version>
 <!--        <arquillian-wildfly-container.version>5.0.0.Alpha3</arquillian-wildfly-container.version>-->
@@ -115,7 +115,8 @@
             <dependency>
                 <groupId>org.seleniumhq.selenium</groupId>
                 <artifactId>selenium-api</artifactId>
-                <version>${selenium.version}</version>
+                <version>4.2.0</version>
+<!--                <version>${selenium.version}</version>-->
             </dependency>
             <dependency>
                 <groupId>org.seleniumhq.selenium</groupId>
@@ -140,11 +141,11 @@
 
 
             <!-- Drivers -->
-            <dependency>
-                <groupId>org.seleniumhq.selenium</groupId>
-                <artifactId>htmlunit-driver</artifactId>
-                <version>${htmlunit.driver.version}</version>
-            </dependency>
+<!--            <dependency>-->
+<!--                <groupId>org.seleniumhq.selenium</groupId>-->
+<!--                <artifactId>htmlunit-driver</artifactId>-->
+<!--                <version>${htmlunit.driver.version}</version>-->
+<!--            </dependency>-->
             <dependency>
                 <groupId>org.seleniumhq.selenium</groupId>
                 <artifactId>selenium-chrome-driver</artifactId>
